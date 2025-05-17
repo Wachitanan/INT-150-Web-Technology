@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+}
+
+input {
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    height: 2em;
+    outline: none;
+    padding: 5px;
+    padding-left: 20px;
+    font-family: inherit;
+    font-size: 0.875em;
+    color: #e8e8e8;
+}
+
+input:focus, input:active {
+    border: 1px solid #e8b3ce;
+}
+
+button {
+    border-radius: 1px;
+    padding: 6px 16px;
+    border-radius: 5px;
+    color: #5a5a5a;
+}
+
+button:hover {
+    background-color: #da7097;
+    color: #e8b3ce;
+}
+
+.checkbox {
+    display: flex;
+    gap: 5px;
+}
+
